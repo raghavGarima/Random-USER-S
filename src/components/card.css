@@ -1,0 +1,117 @@
+.CardComponentMainDiv{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4rem;
+}
+
+.cardDiv{
+
+  width: 16rem !important;
+  border: 2px solid;
+  height: 20rem;
+
+  background: white;
+  box-shadow: 6px 3px 9px darkslategrey;
+
+
+}
+
+
+.personName{
+  /* color: black; */
+    background: #d7d7cc;
+    margin: 0px;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  box-shadow: 0px 4px 6px black;
+}
+.pictureDiv{
+  margin-top: 16px;
+  height: 10rem;
+  width: 10rem;
+}
+
+.contentDiv{display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;}
+
+.pictureDiv img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid ;
+    border-radius: 50%;
+  }
+
+  .ageDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 84%;
+}
+  .ageDiv p{
+    font-size: 15px;
+    margin-bottom: 2px;
+  }
+  .emailText{
+    font-size: 12px;
+    margin: 0px;
+  }
+
+  .ourSlider{
+    
+      width: 90%;
+  
+  }
+
+  .ourSlider .slick-arrow{
+    height: 3rem;
+    width: 3rem;
+    background: cadetblue;
+    border: 2px solid black;
+    border-radius: 31px;
+  }
+
+  .ourSlider .slick-list{    width: 90%;
+    margin: 0px auto;
+}
+
+.ourSlider .slick-slide {
+  display: flex;
+  width: 300px;
+}
+
+.knowMoreBtn{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+.knowMoreBtn button{
+  color: white;
+  background: cadetblue;
+  height: 1.5rem;
+  width: 6rem;
+  transition-property: width;
+  transition-duration: 1s;
+  /* opacity: 0; */
+}
+/* .cardDiv:hover .knowMoreBtn button {
+  color: white;
+  background: cadetblue;
+  height: 1.5rem;
+  opacity: 1;
+} */
+.knowMoreBtn button:hover {
+  color: white;
+  background: cadetblue;
+  height: 2rem;
+  width: 7rem;
+  
+  /* opacity: 1; */
+}
